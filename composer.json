@@ -1,0 +1,21 @@
+{
+    "name": "dwiyudha/yii2-hello-world",
+    "description": "Simple Hello World Extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","hello world"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dwi Yudha",
+            "email": "dwiyudhas@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dwiyudha\\helloworld\\": ""
+        }
+    }
+}
